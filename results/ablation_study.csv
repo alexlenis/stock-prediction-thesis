@@ -1,0 +1,3 @@
+model,n_features,accuracy_pct,macro_f1
+WITH sentiment,28,39.36,0.3862
+WITHOUT sentiment,19,37.33,0.3701

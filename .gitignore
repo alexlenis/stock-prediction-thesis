@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Local logs and runtime files
+*.log
+warm.json
+
+# Local data and generated outputs
+data/raw/
+data/processed/
+results/figures/
+results/metrics/
+
+# Trained model artifacts are too large for a normal Git repository
+models/*.keras
+models/*.pkl
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# IDE settings
+.idea/
+.vscode/

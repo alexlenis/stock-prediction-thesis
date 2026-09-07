@@ -1,0 +1,33 @@
+# Stock Prediction Thesis — Python 3.11.3
+# Generated environment (key dependencies). Install: pip install -r requirements.txt
+
+# Backend / API
+fastapi==0.135.3
+uvicorn==0.44.0
+
+# Data / scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+yfinance==1.2.2
+pymongo==4.3.3
+
+# Data handling
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+
+# Machine learning
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.6.0
+
+# Deep learning
+tensorflow==2.21.0
+
+# NLP / sentiment (FinBERT)
+transformers==5.5.4
+torch==2.11.0
+
+# Volatility / risk & explainability
+arch==8.0.0
+shap==0.51.0
